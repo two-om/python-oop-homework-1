@@ -58,5 +58,7 @@ print(student.rate_lecture(lecturer, 'Python', 7))  # None
 print(student.rate_lecture(lecturer, 'Java', 8))  # Ошибка
 print(student.rate_lecture(lecturer, 'С++', 8))  # Ошибка
 print(student.rate_lecture(reviewer, 'Python', 6))  # Ошибка
+
 print(lecturer.grades)  # {'Python': [7]}
+
 
