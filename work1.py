@@ -30,7 +30,6 @@ class Student:
         self.courses_in_progress = []
         self.grades = {}
 
-# Проверка
 lecturer = Lecturer('Иван', 'Иванов')
 reviewer = Reviewer('Пётр', 'Петров')
 print(isinstance(lecturer, Mentor))
